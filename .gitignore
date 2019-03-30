@@ -1,8 +1,10 @@
 .DS_Store
-node_modules
+node_modules/*
+!vue.config.js
+# !/node_modules/aaa/aaa.txt
+# !/node_modules/vue-cli-plugin-vuetify/vue.config.js
+# /node_modules/vue-cli-plugin-vuetify/!vue.config.js
 /dist
-
-node_modules
 
 # local env files
 .env.local

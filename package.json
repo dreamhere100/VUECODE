@@ -8,10 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "vue": "^2.6.6",
     "vuetify": "^1.5.5"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.4.2",
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-eslint": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
